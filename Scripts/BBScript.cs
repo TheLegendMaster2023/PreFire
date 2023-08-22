@@ -76,7 +76,7 @@ public class BBScript : MonoBehaviour
     }
     public void DeleteByTrigger()
     {
-        print("����");
+        print("сработало");
         GC.GetComponent<GameControllerNew>().ActiveBulletsG.Remove(this.gameObject);
         Destroy(this.gameObject);
       // ThisNumberInListG = GetComponent<GameControllerNew>().ActiveBulletsG.Count - 1;
